@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #000000;
+}
+
+.contenedorObjetivo{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+
+    background-color: #000000;
+}
+
+.contenedorTextoObjetivo{
+    width: 50%;
+    height: 100%;
+    
+
+}
+
+.tituloObjetivo{
+    width: 100%;
+    height: 20%;
+
+    color: #ffffff;
+    
+
+}
+
+.tituloObjetivo h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600;    
+}
+
+.contenedorParrafo{
+    width: 90%;
+    height: 50%;
+    
+    margin-left: 5%;
+}
+
+
+.contenedorParrafo p{
+    text-align:  justify;
+    margin: 2px;
+    font-size: 15px;
+    
+     margin-top: 10%;
+     line-height: 1.5;
+     color: #ffffff;
+     font-family: 'Lato', sans-serif;
+     font-size: 18px;
+}
+.video{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contenedorVideo{
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+}
+
+.linea{
+    width: 100%;
+    height: 5px ;
+    background-color: #32E80D;
+}
+
+.misionVision{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    background-color: #000000;
+}
+
+
+.contenedorMision{
+    width: 65%;
+    height: 100%;
+   
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedorParrafoCompleto{
+    width: 70%;
+    height: 70%;
+    
+}
+
+.contenedorTituloMision{
+    width: 100%;
+    height: 20%;
+    
+
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+   
+    
+}
+
+.contenedorParrafoMision p{
+ text-align:  justify;
+   margin: 2px;
+   font-size: 15px;
+   
+    margin-top: 10%;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.contenedorImagen{
+    width: 35%;
+    height: 100%;
+  
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imagen{
+    width: 90%;
+    height: 70%;
+   
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.valores{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+   
+}
+
+
+.contenedorTituloValores{
+    width: 100%;
+    height: 10%;
+    margin-top: 2%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    
+
+}
+
+.contenedorValores{
+    width: 100%;
+    height: 88%;
+   
+  
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    
+
+    flex-wrap: wrap;
+    
+    
+    flex-direction: column;
+
+    
+
+
+}
+
+.contenedorValorUno{
+    width: 22%;
+    height: 70%;
+    background-color: orange;
+    margin: 1%;
+    border-radius: 4px;
+}
+
+
+.contenedorImagenCard{
+    width: 100%;
+    height: 50%;
+    background-color: aliceblue;
+
+}
+
+
+/*Footer**/
+
+footer{
+    width: 100%;
+    height: 90%;
+    background-color: violet;
+
+
+}
+
+.contenedorImagenFooter{
+    width: 100%;
+    height: 50%;
+    background-color: aqua;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+
+.contenedorTextoFooter{
+    width: 99%;
+    height: 50%;
+    background-color: red;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+
+}
+
+.Propietario {
+    width: 33%;
+    height: 100%;
+    background-color: #32E80D;
+
+}
+
+.tituloFooter{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    
+    margin-left: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;  
+}
+
+.contenedorParrafoFooter{
+    width: 90%;
+    height: 100%;
+    background-color: violet;
+    margin-left: 5%;
+    
+}
+
+.caracteristicas{
+    width: 33%;
+    height: 100%;
+    background-color: #000000;
+
+}
+
+
+.contenedorParrafoFooter p{
+    text-align: center;
+}
+
+
+.localizacion{
+    width: 33%;
+    height: 100%;
+    background-color: #000000;
+}
+.contenedorBarra{
+    width: 100%;
+    height: 20%;
+    background-color: antiquewhite;
+}
+
+
+.contenedorFooterMapa{
+    width: 100%;
+    height: 50%;
+
+}

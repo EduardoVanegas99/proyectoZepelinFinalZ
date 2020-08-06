@@ -1,0 +1,118 @@
+extends layout-administrador
+block NavegacionLateral
+
+
+    link(rel="stylesheet", href="./public/css/registrar-club.css")
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f1f42090c4.js" crossorigin="anonymous"></script>
+    
+    title=nombrePagina
+    <main>
+        div.contenedorAlertas
+        div.contenedor-clubsBoton 
+            
+            div.contenedor-clubs
+                if  registroClubMostrar.length 
+                    each mostrar in registroClubMostrar 
+                        <div class="mostrarClub">
+                            <div class="contenedorImagenClub">
+
+                            </div>
+                            <div class="contenedorInformacionClub">
+                                a(href=`/mostrar-club/${mostrar.url}`)=mostrar.nombreClub
+                                p=mostrar.email 
+                            </div>
+                            <div class="contenedorIconos">
+                                <i class="fas fa-edit fa-2x"></i>
+                                <i class="fas fa-trash fa-2x"></i>
+                            </div>
+                        </div>              
+            div.contenedorBoton
+
+                <i class="fas fa-plus-circle fa-3x" data-toggle="modal" data-target="#modalCorreo"></i>
+                
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+
+    </main>
+
+
+        <div class="modal" tabindex="-1" role="dialog" id="modalCorreo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Crear Club</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        form(action="./registrar-club", method="POST")
+                        
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Seleccionar Genero</label>
+                                <select class="form-control" id="exampleFormControlSelect1" name="genero">
+                                    <option>Femenil</option>
+                                    <option>Varonil</option>
+                                
+                                </select>
+
+                            </div>
+                            div.form-group
+                                input(type="text", name="nombreClub" class="form-control" placeholder="Nombre Club")
+
+                            div.form-group 
+                                input(type="email", name="email" class="form-control" placeholder="Email")   
+
+                            </div>
+                                <div class="modal-footer">
+                                    <button type="buton" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary form-control">Save changes</button>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" tabindex="-1" role="dialog" id="modalCorreo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Crear Club</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        form(action=".", method="PUT")
+                        
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Seleccionar Genero</label>
+                                <select class="form-control" id="exampleFormControlSelect1" name="genero">
+                                    <option>Femenil</option>
+                                    <option>Varonil</option>
+                                
+                                </select>
+
+                            </div>
+                            div.form-group
+                                input(type="text", name="nombreClub" class="form-control" placeholder="Nombre Club")
+
+                            div.form-group 
+                                input(type="email", name="email" class="form-control" placeholder="Email")   
+
+                            </div>
+                                <div class="modal-footer">
+                                    <button type="buton" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="submit" class="btn btn-primary form-control">Save changes</button>
+                                </div>
+                </div>
+            </div>
+        </div>
+
+ 
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+

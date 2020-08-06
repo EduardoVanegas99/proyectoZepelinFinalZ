@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+.contenedorAlertas{
+    width: 100%;
+    height: 5%;
+    background-color: red;
+}
+
+.contenedorFormulario{
+    width: 40%;
+    height: 95%;
+    background-color: aqua;
+    float: right;
+
+}
+
+.formularioClubCompleto{
+    width: 90%;
+    height: 100%;
+    background-color: yellow;
+    margin-left: 5%;
+
+}
+
+.contenedorCompletoImagen
+{
+    width: 60%;
+    height: 50%;
+    background-color: violet;
+    margin-left: 20%;
+}
+
+.contenedorImagen{
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    
+
+}
+
+.imagen{
+    width: 10%;
+    height: 12%;
+   
+    margin-top: -15%;
+    position: relative;
+    top: 0;
+    margin-left: 65%;
+    padding: 0%;
+    
+    
+}
+
+.contenedorImagen img{
+    width: 100%;
+    height: 100%;
+
+} 
+
+#imagen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+    padding: 0%;
+    opacity: 0;
+   
+}
+
+
+.contenedorFormulariocompletoClub{
+    width: 90%;
+    height: 45%;
+    margin-top: 1%;
+    background-color: aqua;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+

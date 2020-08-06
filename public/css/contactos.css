@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedorMapa{
+    width: 100%;
+    height: 100%;
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+}
+
+.contenedorTituloMapa{
+    width: 27%;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    
+    align-items: center;
+
+    justify-content: center;
+}
+
+.contenedor{
+    width: 70%;
+    height: 75%;
+    z-index: 2;
+   margin-right: 3%;
+  
+
+}
+
+.contenedorTituloMapa h2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;   
+}
+
+/*Section of contacts*/
+
+.contactos{
+    width: 90%;
+    height: 45% ;
+   
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.ubicacion{
+    width: 30%;
+    height: 100%;
+    margin:1%;
+  
+}
+
+.imagen{
+    width: 100%;
+    height:40%;
+    
+    z-index: 2;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img{
+    width: 40%;
+    height: 120%;
+
+}
+.contenedorTextoUbicacion{
+    width: 90%;
+    height: 50%;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.texto{
+    width: 90%;
+    height: 80%;
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+p{
+    
+    text-align: center;
+}
+.espaciador{
+    width: 90%;
+    height: 5%;
+
+}
+.contactos-Mensajes{
+    width: 90%;
+    height: 100%;
+   
+    margin-left: 5%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.contenedorFormulario{
+    width: 60%;
+    height: 70%;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    
+
+}
+
+.contenedorCaja{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+   
+    
+
+}
+
+.contenedorCaja .form-group{
+    width: 45%;
+    margin: 2%;
+}
+
+/*Inputs*/
+#nombre,  #email{
+    
+}
+textarea{
+    min-height: 50%;
+    height: 100%;
+}
